@@ -1,0 +1,24 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore Python environment config files
+pyvenv.cfg
+
+# Ignore dependency directories (for Windows venv)
+Include/
+Include
+Lib/
+Lib
+Scripts/
+Scripts
+
+# Ignore environment variables and secrets
+.env
